@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>So Far...</title>
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="css/html5reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" type="image/png" href="img/logo.png"/>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158799266-1"></script>
+   <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+   gtag('config', 'UA-158799266-1');
+   </script>
+
+</head>
+
+<body>
+<div class="skip"><a href="#main">Jump to Main Content</a></div>
+<div class="nav">
+	<img src="img/logo.png" alt="lauren's travel logo" class="navlogo">
+	<nav>
+		<ul class="navlinks">
+		<li><a href = "index.html">Home</a></li>
+		<li><a href = "where.html" id="imhere">Where I've Been So Far</a></li>
+		<li><a href = "recs.html">Recommendations</a></li>
+		<li><a href = "gallery.html">Gallery</a></li>
+		</ul>
+	</nav>
+</div> 
+<header class="whereheader">
+	<div class="box">
+	<h1 class="hitfloor">Where I've Been So Far...</h1>
+	<p>Here is where I'll keep track of all of the countries I have been to! If you have a recommendation for where I should go next let me know in the form below!</p>
+	</div>
+</header>
+
+<main class="parallex" id="main">
+<div class="wherecontainer">
+	<div>
+	<h2>North America</h2>
+	<div class="na">
+		<p>Antigua</p>
+		<p>The Bahamas</p>
+		<p>Barbados</p>
+		<p>Belize</p>
+		<p>Bermuda</p>
+		<p>Canada</p>
+		<p>Cayman Islands</p>
+		<p>Dominican Republic</p>
+		<p>Guadeloupe</p>
+		<p>Haiti</p>
+		<p>Honduras</p>
+		<p>Jamaica</p>
+		<p>Mexico</p>
+		<p>Puerto Rico</p>
+		<p>St. Kitts and Nevis</p>
+		<p>St. Lucia</p>
+		<p>St. Martin/Maarten</p>
+		<p>Turks & Caicos</p>
+		<p>USA</p>
+	</div>
+	</div>
+	<div>
+	<h2>Europe</h2>
+	<div class="eu">
+		<p>Austria</p>
+		<p>Croatia</p>
+		<p>Czech Republic</p>
+		<p>Denmark</p>
+		<p>England</p>
+		<p>France</p>
+		<p>Germany</p>
+		<p>Gibraltar</p>
+		<p>Italy</p>
+		<p>Portugal</p>
+		<p>Solvenia</p>
+		<p>Ireland</p>
+		<p>Greece</p>
+		<p>Spain</p>
+		<p>Switzerland</p>
+		<p>The Netherlands</p>
+		<p>The Vatican</p>
+	</div>
+	</div>
+	<div>
+	<h2>Africa</h2>
+	<div class="af">
+		<p>Morocco</p>
+	</div>
+	</div>
+</div>
+
+<form action="https://formspree.io/xyyjkwjn" method="POST">
+<fieldset>
+   <legend>Where Should I go Next?</legend>
+   <div class = "contact">
+      <label for ="name">First Name:</label><input type="text" id ="name" name="name"/> 
+   </div>
+   <div>
+   Continent?<br>
+   <input type="radio" name ="level" id = "n" checked> <label for ="n">North America</label><br>
+   <input type="radio" name ="level" id = "s"> <label for ="s">South America</label><br>
+   <input type="radio" name ="level" id = "a"> <label for ="a">Asia</label><br>
+   <input type="radio" name ="level" id = "e"> <label for ="e">Europe</label><br>
+   <input type="radio" name ="level" id = "o"> <label for ="o">Oceania</label><br>
+   </div>
+   <div>
+      <label for="country">Choose a country I should visit!
+      <select id="country">
+      <option> select </option>
+      <option> Australia </option>
+      <option> Thailand </option>
+      <option> Peru </option>
+      <option> Japan </option>
+      <option> Colombia</option>
+      <option> Argentina </option>
+      <option> Costa Rica </option>
+      <option> Egypt </option>
+      <option>  New Zealand</option>
+      <option>  Cambodia</option>
+      <option>  Laos</option>
+      <option>  Vietnam</option>
+      <option> China </option>
+      <option>  India</option>
+      <option> Finland </option>
+      <option> Nepal </option>
+      <option> Sweden </option>
+      <option> Norway </option>
+      <option> Iceland </option>
+      <option> Singapore </option>
+      <option> Fiji </option>
+      <option> The Philippines </option>
+      <option> Indonesia </option>
+      <option> The Galapagos </option>
+      <option> Aruba </option>
+      <option> Brazil </option>
+      <option> Belgium </option>
+      <option> South Africa </option>
+      <option> United Arab Emirates </option>
+      <option> Madagascar </option>
+      <option> Cuba </option>
+      <option> Lithuania </option>
+      <option> Romania </option>
+      <option> Russia </option>
+      <option> Monaco</option>
+      <option> South Korea </option>
+      <option> Turkey </option>
+      <option> Maldives </option>
+      <option> Malaysia </option>
+      <option>Luxembourg</option>
+      </select>
+      </label>
+   </div>
+   <div>
+   <label for ="place">Your Favorite Place:</label><input type="text" id ="place" name="place" placeholder="City, Country" />
+   </div>
+   <div>
+   What's important to you when choosing a location?:<br>
+   <label><input type="checkbox" />Food</label><br>
+   <label><input type="checkbox" />History of location</label><br>
+   <label><input type="checkbox" />Possibility for outdoor activities</label><br>
+   <label><input type="checkbox" />Cost of travelling there</label><br>
+   <label><input type="checkbox" />Ease of travelling there</label><br>
+   <label><input type="checkbox" />Weather</label><br>
+   <label for ="other">Other:</label><input type="text" id ="other" name="other"/>
+   </div>
+
+   <div>
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Submit Form"/> 
+   </div>
+
+   </fieldset>
+   </form>
+   
+
+   <div class="whereimgs">
+
+   	<img src="img/wimgone.jpg" alt="Cruise ship docked in Bermuda with flags in front">
+      <img src="img/wimgtwo.jpg" alt="Me in front of the Royal Palace of Madrid">
+      <img src="img/wimgfour.jpg" alt="The sunrise over water in Morocco">
+   	<img src="img/wimgthree.jpg" alt="Me in Santorini with white, tan, and blue buildings behind">
+
+   </div>
+
+
+</main>
+
+<footer>
+	<img src="img/logo.png" alt="lauren's travel logo" class="footlogo">
+	<p>Lauren Jackson &copy; 2020 <br/>
+		University of Michigan</p>
+	<nav>
+		<ul>
+			<li><a href = "index.html">Home</a></li>
+			<li><a href = "where.html">Where I've Been So Far</a></li>
+			<li><a href = "recs.html">Recommendations</a></li>
+			<li><a href = "gallery.html">Gallery</a></li>
+		</ul>
+	</nav>
+</footer>
+</body>
+</html>
