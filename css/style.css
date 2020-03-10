@@ -206,7 +206,6 @@ footer nav{
 }
 
 .flipcardback{
-  background-color: dodgerblue;
   color: #ffffff;
   transform: rotateY(180deg);
 }
